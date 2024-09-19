@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(14, 14, 62);
+}
+
+.heading{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+    margin: auto;
+}
+.main-div{
+    text-align: center;
+    align-items: center;
+}
+.timer{
+    background-color: black;
+    color:greenyellow;
+    border: 2px solid white;
+    padding:1px;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+.score-section{
+    color: white;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    margin:1px;
+}
+.score-buttons{
+    background-color: transparent;
+    align-items: baseline;
+    padding: 5px;
+    height: 10vw;
+    align-items: baseline;
+    margin: auto;
+}
+#one-el{
+    font-size: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#two-el{
+    font-size: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#three-el{
+    font-size: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.score{
+    background-color: black;
+    color: red;
+    text-align: center;  /* Centers the text inside the div */
+    width: 40px;         /* Optional: Ensure div takes full width of its parent */
+    padding: 10px;
+    margin: auto;
+}
+.main{
+    flex:1;
+    padding:10px;
+    border: 1px;
+    text-align: center;
+    
+}

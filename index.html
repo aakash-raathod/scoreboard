@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-div">
+        <div class="heading">Basketball Scoreboard</div>
+        <div class="timer" id="timer-el">60:00</div>
+        <div class="score-section">
+            <div class="main">
+                <div class="title">HOME</div>
+                <div class=" score" id="home-score">0</div>
+                <div class="score-buttons">
+                    <button id="one-el" onclick="updateScore('home',1)">+1</button>
+                    <button id="two-el" onclick="updateScore('home',2)">+2</button>
+                    <button id="three-el" onclick="updateScore('home',3)">+3</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="title">Guest</div>
+                <div class=" score" id="guest-score">0</div>
+                <div class="score-buttons">
+                    <button id="one-el" onclick="updateScore('guest',1)">+1</button>
+                    <button id="two-el" onclick="updateScore('guest',2)">+2</button>
+                    <button id="three-el" onclick="updateScore('guest',3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="new-game">
+            <button id="new-game-el" onclick="newGame()">New Game</button>
+        </div>
+        <button id="start-game-el" onclick="startGame()">Start Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
